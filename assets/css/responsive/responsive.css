@@ -1,0 +1,52 @@
+
+/*==================screen size 991==================*/
+@media only screen and (max-width: 991px){
+  /*=====NAVBAR====*/
+  .nav-item{
+    text-align: center;
+  }
+  /*==================HEADERE SECTION HERO==================*/
+  .hero-content{
+    width: 60%;
+  }
+  .hero-content-style{
+    width: 100%;
+    text-align: center;
+    
+  }
+  .hero-content-style h3{
+    font-size: 3rem;
+  }
+  .hero-content-style p{
+    margin: auto;
+  }
+  .hero-btn{
+    margin-block: 1rem;
+  }
+} 
+
+    /*==================screen size 515==================*/
+    @media only screen and (max-width: 515px){
+      /*==================HEADERE SECTION HERO==================*/
+      .hero-content-style h3{
+      font-size: 1.2rem;
+        margin-top: -50px;
+    }
+    .hero-btn{
+      padding: .3rem .5rem;
+      width: 150px;
+      font-size: .7rem;
+    }
+    .hero-content-style p{
+      font-size: 12px;
+      width: 150px !important;
+     
+    }
+  }
+
+
+
+
+
+
+

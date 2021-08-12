@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F8F8F8 !important;
+   
+}
+/*========reset css==========*/
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none;
+}
+/*============main css style start from here===========*/
+/*---------header section------------*/
+/*----navbar style-----*/
+.header{
+  width: 100%;
+  position: relative;
+  height: 100% auto;
+}
+/*=======navbar-search btn style========*/
+/*=======navbar style========*/
+.navbar-nav li a{
+	padding: .5rem 0rem;
+	margin: 1rem 2rem;
+	position: relative;
+  font-size: 1rem !important;;
+  font-weight: 700 !important;
+}
+.navbar-nav li a:after{
+  content: '';
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background-color: #3CA7DB;
+	left: 0;
+  top: 2.3rem;
+	transform: scaleX(0);
+	transition: all .5s;
+  opacity: .5;
+ 
+}
+.navbar-nav li a:before{
+  content: '';
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background-color: #3CA7DB;
+	left: 0;
+  bottom:2rem;
+	transform: scaleX(0);
+	transition: all .5s;
+  opacity: .5;
+}
+.navbar-nav li a::after{
+	bottom: 0;
+	transform-origin: left;
+}
+.navbar-nav li a:hover::before{
+	transform: scaleX(1);
+}
+.navbar-nav li a:hover::after{
+	transform: scaleX(1);
+}
+.navbar-nav  .active{
+  color:#0391D3 !important;
+}
+.navbar-nav .nav-link:hover{
+   color:#0391D3 !important; 
+}
+/*=======hero content=========*/
+.hero{
+  width: 100%;
+  height:100% auto;
+}
+.hero-content{
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  margin:5rem auto;
+}
+.hero-col-first{
+  position: relative;
+}
+.hero-content-style h3{
+ font-size: 2rem;
+ font-weight: 700;
+}
+.hero-content-style h3:after{
+  content: 'Обходитесь без лишних затрат';
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-block: 1rem;
+}
+.INDESIT{
+  color: #3ca7db;
+}
+.hero-btn{
+  padding: .6rem 1rem;
+  background: #3ca7db;
+  border:2px solid #3ca7db;
+  color: #fff;
+  font-weight: 700;
+  width: 200px;
+  border-radius: 2rem;
+  margin-block: 2rem;
+  font-size: 14px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.hero-btn:hover{
+  background: #F3393A;
+  border:none;
+  transition: .5s;
+}
+.hero-content-style p{
+  width: 300px;
+  color:#000000;
+  
+}
+.star{
+  color: red;
+}
+.hero-list ul{
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  right: 0;
+  bottom: 20px;
+}
+.hero-list ul li{
+  margin: 0 1.5rem;
+}
+.hero-list ul li img {
+  width: 10vw;
+}
+.group-col{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
