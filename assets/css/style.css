@@ -75,6 +75,7 @@ ul{
 .hero{
   width: 100%;
   height:100% auto;
+
   
 }
 .hero-content{
@@ -147,7 +148,17 @@ ul{
 .about-section{
   width: 100%;
   height: 100% auto;
-  margin-block: 10rem;
+  padding-block: 10rem;
+ 
+ 
+}
+.about-section h2{
+text-align: center;
+ font-size: 2.5rem;
+ font-weight: 700;
+ letter-spacing: 5px;
+ 
+ 
 }
 .about-detail{
   display: flex;
@@ -155,11 +166,11 @@ ul{
   align-content: center;
   flex-wrap: wrap;
 }
-.about-detail h2{
+.about-detail h3{
   font-size: 1.5rem;
   color: #5C5C5C;
 }
-.about-detail h2:after{
+.about-detail h3:after{
   content:'Свяжитесь с менеджером по телефону +7 (778) 065-12-46 или';
   display: block;
   font-size: 14px;
@@ -223,14 +234,18 @@ ul{
 .services-section{
   width: 100%;
   height: 100% auto;
-  margin-block:10rem;
+  padding-block: 8rem;
+ 
+}
+.services-section .service-section-first-row{
+  padding-top: 5rem;
 }
 .services-section h2{
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 5px;
-  padding-bottom: 5rem;
+
  }
  .services-section .single-service-box{
    border:1px solid #3ca7db;
@@ -274,3 +289,45 @@ ul{
   max-width: 250px;
   color:#AFAFAF;
 }
+/*================PACKAGES SECTION==============*/
+.packages-section{
+  width: 100%;
+  height: 100% auto;
+  background: #3ca7db;
+  padding-block: 10rem;
+}
+.packages-section h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-top: -5rem;
+  
+}
+.packages-section h1{
+  text-align: center;
+  font-weight: 600;
+  padding-block: 2rem;
+  margin-top: -2rem;
+}
+.single-package{
+  background: #fff;
+  max-height:30vh;
+  padding: 1rem;
+  margin: .5rem;
+}
+.single-package h4{
+ font-weight: 600;
+ font-size:1.5rem;
+}
+.single-package p{
+  font-size: 18px;
+}
+.single-package h6{
+  color: red;
+}
+.single-package:hover{
+  background: #FF0000;
+  transition:.5s;
+}
+
