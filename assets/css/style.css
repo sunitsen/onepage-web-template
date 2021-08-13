@@ -140,3 +140,81 @@ ul{
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*================ABOUT SECTION==============*/
+.about-section{
+  width: 100%;
+  height: 100% auto;
+}
+.about-section{
+  margin-top: 15rem;
+}
+.about-detail{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.about-detail h2{
+  font-size: 1.5rem;
+  color: #5C5C5C;
+}
+.about-detail h2:after{
+  content:'Свяжитесь с менеджером по телефону +7 (778) 065-12-46 или';
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  color: #5C5C5C;
+}
+.about-detail .about-btn{
+  text-align: center;
+  background: #3ca7db;
+  border:2px solid #3ca7db;
+  color: #fff;
+  font-weight: 700;
+  width: 200px;
+  border-radius: 2rem;
+  height: 3rem;
+  font-size: 14px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.banner-content{
+  max-width: 500px;
+  margin:50px auto;
+ }
+ .banner-content h3{
+   font-size: 2rem;
+   color:#fff;
+ }
+ .banner-content p{
+   color:#D3E8E0;
+ }
+ .banner-content .about-btn{
+   background: #3ca7db;
+   border:2px solid #3ca7db;
+   color: #fff;
+   font-weight: 700;
+   width: 180px;
+   border-radius: 2rem;
+   height: 2.5rem;
+   font-size: 14px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+ }
+ .about-image{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.about-image img{
+ position: absolute;
+}
+.about-image img:first-child{
+  left: 150px;
+  bottom: 0;
+  width: 15rem;
+}
+.about-image img:last-child{
+  right: 150px;
+  bottom: 0;
+  width: 15rem;
+}

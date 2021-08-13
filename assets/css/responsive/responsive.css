@@ -23,6 +23,23 @@
   .hero-btn{
     margin-block: 1rem;
   }
+ /*========ABOUT SECTION======*/
+ .about-detail{
+  padding-block: 2rem !important;
+  text-align: center !important;
+}
+.about-detail h2:after{
+  text-align: center;
+}
+
+.banner-content{
+  text-align: center;
+  font-size: 10px;
+}
+.about-image{
+  height: 25vh;
+  margin-top: 8rem !important;
+} 
 } 
 
     /*==================screen size 515==================*/
