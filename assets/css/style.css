@@ -19,6 +19,7 @@ ul{
   width: 100%;
   position: relative;
   height: 100% auto;
+  
 }
 /*=======navbar-search btn style========*/
 /*=======navbar style========*/
@@ -74,12 +75,14 @@ ul{
 .hero{
   width: 100%;
   height:100% auto;
+  
 }
 .hero-content{
   display: flex;
   justify-content: flex-start;
   width: 400px;
   margin:5rem auto;
+ 
 }
 .hero-col-first{
   position: relative;
@@ -144,9 +147,7 @@ ul{
 .about-section{
   width: 100%;
   height: 100% auto;
-}
-.about-section{
-  margin-top: 15rem;
+  margin-block: 10rem;
 }
 .about-detail{
   display: flex;
@@ -217,4 +218,59 @@ ul{
   right: 150px;
   bottom: 0;
   width: 15rem;
+}
+/*================SERVICES SECTION==============*/
+.services-section{
+  width: 100%;
+  height: 100% auto;
+  margin-block:10rem;
+}
+.services-section h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding-bottom: 5rem;
+ }
+ .services-section .single-service-box{
+   border:1px solid #3ca7db;
+ }
+ .single-service-box{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   position: relative;
+   
+ }
+.single-service-box:after{
+  content: 'one';
+  display: block;
+  background: #3ca7db;
+  padding: 1rem;
+  position: absolute;
+  left: -1rem;
+  top:-3rem;
+  padding-bottom:2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+ .single-service-box h5{
+   font-size: 1.2rem;
+   font-weight: 600;
+ }
+ .single-service-box img{
+  width: 3rem;
+  margin-left: 1rem;
+}
+ .single-service-box .service-content{
+  margin-left: 2rem;
+ }
+ .single-service-box .service-content h5{
+ line-height: 1px;
+ margin-top: 2rem;
+ }
+.single-service-box .service-content p{
+  max-width: 250px;
+  color:#AFAFAF;
 }

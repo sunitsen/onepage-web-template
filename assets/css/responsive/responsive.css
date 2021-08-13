@@ -24,6 +24,9 @@
     margin-block: 1rem;
   }
  /*========ABOUT SECTION======*/
+ .about-section{
+   margin-top: 5rem;
+ }
  .about-detail{
   padding-block: 2rem !important;
   text-align: center !important;
@@ -40,14 +43,33 @@
   height: 25vh;
   margin-top: 8rem !important;
 } 
+.about-image img{
+  width: 15rem !important;
+}
+/*========SERVICE SECTION======*/
+.service-second-row{
+  margin-top: 5rem;
+}
 } 
+
+/*==================screen size 767==================*/
+@media only screen and (max-width: 767px){
+  /*==================SERVICES SECTION==================*/
+  .single-service-box{
+    margin-block: 2rem;
+  }
+  .service-second-row{
+    margin-top: 1rem !important;
+  }
+}
+
 
     /*==================screen size 515==================*/
     @media only screen and (max-width: 515px){
       /*==================HEADERE SECTION HERO==================*/
       .hero-content-style h3{
       font-size: 1.2rem;
-        margin-top: -50px;
+      margin-top: -50px;
     }
     .hero-btn{
       padding: .3rem .5rem;
@@ -57,7 +79,11 @@
     .hero-content-style p{
       font-size: 12px;
       width: 150px !important;
-     
+    }
+  }
+  @media only screen and (max-width: 390px){
+    .about-image img{
+      width: 12rem !important;
     }
   }
 
