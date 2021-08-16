@@ -289,19 +289,22 @@ text-align: center;
   max-width: 250px;
   color:#AFAFAF;
 }
+
 /*================PACKAGES SECTION==============*/
 .packages-section{
   width: 100%;
   height: 100% auto;
   background: #3ca7db;
-  padding-block: 10rem;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+
 }
 .packages-section h2{
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 5px;
-  margin-top: -5rem;
+  margin-top: 5rem;
   
 }
 .packages-section h1{
@@ -330,4 +333,61 @@ text-align: center;
   background: #FF0000;
   transition:.5s;
 }
+/*================CLIENT SECTION==============*/
+.client-review{
+  padding-block: 5rem;
+ }
+/*================faq SECTION==============*/
 
+ .faq{
+  background: #3ca7db;
+  padding-block: 5rem;
+}
+
+
+
+/*================footer SECTION==============*/
+
+.map{
+  position: relative;
+  }
+  .contact-form{
+    background: #fff;
+    width: 300px;
+    height:100% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .footer-contact{
+    width: 70%;
+    margin: auto;
+  }
+  .contact-form h3{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  .contact-form ul li{
+    margin-top: 2rem;
+    color: #fff;
+  
+    color: #000;
+  }
+  .contact-form ul li svg{
+    margin-top: 1rem;
+  }
+  
+  .contact-btn{
+     background: #3ca7db;
+     border:2px solid #3ca7db;
+     color: #fff;
+     font-weight: 700;
+     width: 180px;
+     margin:1rem 0rem;
+     border-radius: 2rem;
+     height: 2.5rem;
+     font-size: 14px;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
